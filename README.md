@@ -20,4 +20,9 @@ Run with kubectl
 kubectl apply -f k8s/
 ```
 
-The default port is set to 4000
+Run with Skaffold
+```console
+skaffold dev
+```
+
+The default port is set to 4000. [Port might change in kubernetes cluster if useing NodePort service]
